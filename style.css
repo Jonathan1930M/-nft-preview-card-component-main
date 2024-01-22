@@ -42,9 +42,31 @@ body{
     align-items: center;
 }
 .main-img {
-    width: 88%;
+/*     width: 88%;
     height: 88%;
-    border-radius: 8px;
+    border-radius: 8px; */
+    width: 300px;
+    background: url('images/icon-view.svg') center center no-repeat;
+    background-color: var(--Cyan);
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.icon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    background-color: var(--Cyan);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.icon:hover {
+    opacity: .5;
+    cursor: pointer;
 }
 
 .cont-title {
